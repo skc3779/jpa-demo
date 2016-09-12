@@ -14,6 +14,10 @@ local.properties
 .settings/
 .loadpath
 
+# log files
+.log
+
+
 # Eclipse Core
 .project
 
@@ -91,3 +95,10 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 
+jpa-01-manager/logs/
+jpa-01-manager/src/main/resources-seokangchunui-imac/
+jpa-01-manager/src/test/
+jpa-02-lifecycle/logs/
+jpa-02-lifecycle/src/main/resources-seokangchunui-imac/
+jpa-02-lifecycle/src/test/
+logs/appLog.2016-09-10.log
