@@ -109,10 +109,12 @@ allprojects {
 
 task execute(type: JavaExec) {
 
+    println 'task execute'
+
     if(project.hasProperty('main')) {
         main = project.main
     } else {
-        main = "run.LocalDates"
+        main = "io.kangchun.JpaMain"
     }
 
     classpath = sourceSets.main.runtimeClasspath
